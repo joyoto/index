@@ -1,0 +1,231 @@
+em, strong
+{
+	color: blue;
+}
+/*
+style.css
+kan j apprenais à mettre des couleu
+
+Par Mathieu Nebra
+*/
+
+.salutations
+{
+	color: bleu; /* Les paragraphes seront en bleu */
+}
+
+h3 em
+{
+	
+}
+
+p
+{
+	font-size: 16px; /* Paragraphes de 16 pixels permet d'agrandire ou de miniaturiser les mots. */
+}
+
+h1
+{
+	font-size: 35px; /* Titres de 40 pixels permet d'agrandire ou de miniaturiser les mots. */
+}
+
+h1
+{
+	font-family: police1, police2, police3, police4;/* permettent de définire la police  */
+}
+
+balise
+{
+	font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;/* permettent à définire la police*/
+}"
+
+@font-face { /* Définition d'une nouvelle police nommée
+LearningCurveProRegular */
+	font-family: 'LearningCurveProRegular';
+	src: url('LearningCurve_OT-webfont.eot');
+	src: url('LearningCurve_OT-webfont.eot?#iefix')
+format('embedded-opentype'),
+	url('LearningCurve_OT-webfont.woff') format('woff'),
+	url('LearningCurve_OT-webfont.ttf') format('truetype'),
+	url('LearningCurve_OT-webfont.svg#LearningCurveProRegular')
+format('svg');
+}
+
+p /* Utilisation de la police qu'on vient de définir sur les
+titres */
+{
+	font-family: 'LearningCurveProRegular', Arial, serif;
+}
+
+h1,h2 
+{
+	font-style: italic;/*italic : le texte sera mis en italique.
+oblique : le texte sera passé en oblique (les lettres sont penchées, 
+normal : le texte sera normal (par défaut).*/
+}
+
+h1,h2
+{
+	text-align: center;
+}
+
+p
+{
+	text-align: justify;
+}
+
+.signature
+{
+	text-align: right;
+}
+
+h1
+{
+	color: black;
+}
+
+p
+{
+	color:black;
+}
+
+/* On travaille sur la balise body, donc sur TOUTE la page */
+body
+{
+background-color: white; /* Le fond de la page sera noir */
+color: black; /* Le texte de la page sera blanc */
+}
+
+balise
+{
+	background-color: rgba(255, 0, 0, 0.5); /* Fond rouge à moitié
+	transparent pour les paragraphe_h1... */
+}
+
+h1
+{
+	border: 3px black none;/* permet d encadrer les titre h1 et de changer la couleur... */
+}
+
+p
+{
+	border-left:none ;
+	border-right: none;/* permet de mettre des bordure (trait)au bort des phrases  */
+}
+
+p
+{
+	border-radius:none ;
+}
+
+p
+{
+	box-shadow: none black;/* permet de mettre de l'ombre sous  les bordure */
+}
+
+p
+{
+text-shadow: none black;/* met de l'ombre sous les mots */
+}
+
+a /* Liens par défaut (non survolés) */
+{
+text-decoration:underline ;
+color: blue;
+font-style: italic;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+	text-decoration: underline;
+	color:blue;
+}
+
+a:active /* Quand le visiteur clique sur le lien */
+{
+	background-color: #FFCC66;
+}
+
+:focus /* Quand le visiteur sélectionne le lien */
+{
+	background-color: none
+}
+
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+	color:red; /* Appliquer une couleur */
+}
+
+balise
+{
+	width: 70%;/* peut etre en pixels */
+	min-width: 800%;/* peut etre en pourcentage */
+}
+
+balise
+{
+	width: 350px;
+	border: 1px solid black;
+	text-align: justify;
+	padding: 12px; /* Marge intérieure de 12px */
+	margin: ...px; /* distance entre 2 paragraphe */
+}
+
+balise
+{
+	width: 350px; /* On a indiqué une largeur (obligatoire) */
+	margin: auto; /* On peut donc demander à ce que le bloc soit
+centré avec auto */
+	border: 1px solid black;
+	text-align: justify;
+	padding: 12px;
+	margin-bottom: 20px;
+	overflow: auto;
+}
+
+balise
+{
+	width: 250px;
+	height: 105px;
+	text-align: justify;
+	border: 1px solid black;
+	overflow: auto;
+}
+
+p
+{
+	word-wrap: break-word;
+}
+
+nav
+{
+	display: inline-block;
+	float: left;
+	width: 150px;
+	border: 0px solid black;
+	vertical-align: top;
+}
+
+section
+{
+	display: inline-block;
+	clear: both;
+	border: 0px solid blue;
+	vertical-align: ;
+}
+
+a
+{
+	display: block;
+}
+
+.secret
+{
+	display: none;
+}
+
+strong
+{
+	background-color: red; /* Fond rouge */
+	color: yellow; /* Texte de couleur jaune */
+}
